@@ -4,6 +4,7 @@ public class MyThread implements Runnable {
     private int init;
     private int increment;
     private int delay;
+    
 
     // Constructor to initialize thread data
     public MyThread(int init, int increment, int delay) {
@@ -12,6 +13,7 @@ public class MyThread implements Runnable {
         this.delay = delay;
     }
 
+    
     // Run method defines what the thread will execute
     public void run() {
         // Limiting to 5 iterations
